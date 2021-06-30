@@ -45,7 +45,7 @@ df_unique = (df_inital.drop_duplicates()).copy()
 
 
 # Using MplFinance, Create Candlestick Graph 
-mpf.plot(df_unique, type = "candle", volume= True, mav = 2)
+mpf.plot(df_unique, type = "candle", volume= False, mav = 2)
 
 #Create 20 moving average value 
 df_unique['20ma'] = df_unique['Adj Close'].rolling(window = 20).mean()
