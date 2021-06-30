@@ -1,3 +1,4 @@
+#Load in Libraries (All pip Installed)
 import datetime as dt
 import matplotlib.pyplot as plt
 from matplotlib import style
@@ -10,6 +11,7 @@ import os.path
 from os import path
 style.use('ggplot')
 
+#Input Stock Ticker Abbreviation 3-5 Letters 
 STOCK_TICKER = input("Please Enter Stock Symbol (Ticker)")
 
 # Intialize Dates for stock using user input
