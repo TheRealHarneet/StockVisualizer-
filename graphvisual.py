@@ -11,8 +11,8 @@ import os.path
 from os import path
 style.use('ggplot')
 
-#Input Stock Ticker Abbreviation 3-5 Letters 
-STOCK_TICKER = input("Please Enter Stock Symbol (Ticker)")
+#Input Stock Ticker Abbreviation
+STOCK_TICKER = input("Please Enter (Ticker):")
 
 # Intialize Dates for stock using user input
 
